@@ -1,0 +1,11 @@
+appId: com.example.myapp
+productName: Tea-pro
+directories:
+  output: dist
+win:
+  target: nsis
+  icon: my-app\test.ico
+  publisherName: Ayush Jaiswal
+
+nsis:
+  differentialPackage: true
